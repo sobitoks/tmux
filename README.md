@@ -25,4 +25,10 @@ Once done, you might want to change the font for your OS and terminal
 git clone git@github.com:sobitoks/tmux.git ~/.config/tmux/
 ```
 
+## Reload config
 
+Inside tmux
+```
+tmux source ~/.config/tmux/tmux.conf
+<prefix> + I
+```
